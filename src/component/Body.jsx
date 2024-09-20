@@ -1,7 +1,9 @@
 import React from 'react'
+import imageBg from '../assets/images/imageBg.png';
+
 const Body = () => {
     return (
-        <section className={`bg-hero-image w-full h-screen bg-no-repeat bg-cover flex justify-center`} >
+        <section className="bg-hero-image w-full h-screen bg-no-repeat bg-cover flex justify-center" >
             <div className='flex justify-center flex-col items-center w-1/2 gap-20'>
                 <h1 className='text-white text-7xl font-extrabold'>You got the travel plans, we got the travel vans.</h1>
                 <div className="gap-10 flex-col flex">
