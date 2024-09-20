@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../assets/Logo.svg'
+import logo from '../assets/images/Logo.svg'
 const NavBar = () => {
     const [open, setOpen] = React.useState(false);
     const [flyer, setFlyer] = React.useState(false);
