@@ -1,5 +1,4 @@
 import React from 'react'
-import ImageBg from '../assets/imageBg.png'
 const Body = () => {
     return (
         <section className={`bg-hero-image w-full h-screen bg-no-repeat bg-cover flex justify-center`} >
